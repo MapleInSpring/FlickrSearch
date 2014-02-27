@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D3B4978F18BEE4AE004524D7 /* Flickr.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B4978C18BEE4AE004524D7 /* Flickr.m */; };
+		D3B4979018BEE4AE004524D7 /* FlickrPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B4978D18BEE4AE004524D7 /* FlickrPhoto.m */; };
+		D3B4979318BEECF5004524D7 /* FlickrPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B4979218BEECF5004524D7 /* FlickrPhotoCell.m */; };
+		D3B4979618BF0817004524D7 /* FlickrPhotoHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B4979518BF0817004524D7 /* FlickrPhotoHeaderView.m */; };
+		D3B4979918BF0B82004524D7 /* FlickrPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B4979818BF0B82004524D7 /* FlickrPhotoViewController.m */; };
+		D3B4979B18BF103E004524D7 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3B4979A18BF103E004524D7 /* MessageUI.framework */; };
 		D3D47CD218BE75B100883C08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3D47CD118BE75B100883C08 /* Foundation.framework */; };
 		D3D47CD418BE75B100883C08 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3D47CD318BE75B100883C08 /* CoreGraphics.framework */; };
 		D3D47CD618BE75B100883C08 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3D47CD518BE75B100883C08 /* UIKit.framework */; };
@@ -21,6 +27,26 @@
 		D3D47CF318BE75B100883C08 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3D47CD518BE75B100883C08 /* UIKit.framework */; };
 		D3D47CFB18BE75B100883C08 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3D47CF918BE75B100883C08 /* InfoPlist.strings */; };
 		D3D47CFD18BE75B100883C08 /* FlickrSearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D47CFC18BE75B100883C08 /* FlickrSearchTests.m */; };
+		D3D47D1B18BE75F000883C08 /* bg_cork.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D47D0718BE75F000883C08 /* bg_cork.png */; };
+		D3D47D1C18BE75F000883C08 /* bg_cork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D47D0818BE75F000883C08 /* bg_cork@2x.png */; };
+		D3D47D1D18BE75F000883C08 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D47D0918BE75F000883C08 /* button.png */; };
+		D3D47D1E18BE75F000883C08 /* button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D47D0A18BE75F000883C08 /* button@2x.png */; };
+		D3D47D1F18BE75F000883C08 /* decoration_snail.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D47D0B18BE75F000883C08 /* decoration_snail.png */; };
+		D3D47D2018BE75F000883C08 /* decoration_snail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D47D0C18BE75F000883C08 /* decoration_snail@2x.png */; };
+		D3D47D2118BE75F000883C08 /* divider_bar.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D47D0D18BE75F000883C08 /* divider_bar.png */; };
+		D3D47D2218BE75F000883C08 /* divider_bar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D47D0E18BE75F000883C08 /* divider_bar@2x.png */; };
+		D3D47D2318BE75F000883C08 /* header_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D47D0F18BE75F000883C08 /* header_bg.png */; };
+		D3D47D2418BE75F000883C08 /* header_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D47D1018BE75F000883C08 /* header_bg@2x.png */; };
+		D3D47D2518BE75F000883C08 /* navbar.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D47D1118BE75F000883C08 /* navbar.png */; };
+		D3D47D2618BE75F000883C08 /* navbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D47D1218BE75F000883C08 /* navbar@2x.png */; };
+		D3D47D2718BE75F000883C08 /* polaroid1_border.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D47D1318BE75F000883C08 /* polaroid1_border.png */; };
+		D3D47D2818BE75F000883C08 /* polaroid1_border@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D47D1418BE75F000883C08 /* polaroid1_border@2x.png */; };
+		D3D47D2918BE75F000883C08 /* pushpin.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D47D1518BE75F000883C08 /* pushpin.png */; };
+		D3D47D2A18BE75F000883C08 /* pushpin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D47D1618BE75F000883C08 /* pushpin@2x.png */; };
+		D3D47D2B18BE75F000883C08 /* search_field.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D47D1718BE75F000883C08 /* search_field.png */; };
+		D3D47D2C18BE75F000883C08 /* search_field@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D47D1818BE75F000883C08 /* search_field@2x.png */; };
+		D3D47D2D18BE75F000883C08 /* search_text.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D47D1918BE75F000883C08 /* search_text.png */; };
+		D3D47D2E18BE75F000883C08 /* search_text@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D47D1A18BE75F000883C08 /* search_text@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +60,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D3B4978B18BEE4AE004524D7 /* FlickrPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrPhoto.h; sourceTree = "<group>"; };
+		D3B4978C18BEE4AE004524D7 /* Flickr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Flickr.m; sourceTree = "<group>"; };
+		D3B4978D18BEE4AE004524D7 /* FlickrPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrPhoto.m; sourceTree = "<group>"; };
+		D3B4978E18BEE4AE004524D7 /* Flickr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flickr.h; sourceTree = "<group>"; };
+		D3B4979118BEECF5004524D7 /* FlickrPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlickrPhotoCell.h; path = ../FlickrPhotoCell.h; sourceTree = "<group>"; };
+		D3B4979218BEECF5004524D7 /* FlickrPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FlickrPhotoCell.m; path = ../FlickrPhotoCell.m; sourceTree = "<group>"; };
+		D3B4979418BF0817004524D7 /* FlickrPhotoHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrPhotoHeaderView.h; sourceTree = "<group>"; };
+		D3B4979518BF0817004524D7 /* FlickrPhotoHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrPhotoHeaderView.m; sourceTree = "<group>"; };
+		D3B4979718BF0B82004524D7 /* FlickrPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrPhotoViewController.h; sourceTree = "<group>"; };
+		D3B4979818BF0B82004524D7 /* FlickrPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrPhotoViewController.m; sourceTree = "<group>"; };
+		D3B4979A18BF103E004524D7 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		D3D47CCE18BE75B100883C08 /* FlickrSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlickrSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3D47CD118BE75B100883C08 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D3D47CD318BE75B100883C08 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +90,26 @@
 		D3D47CF818BE75B100883C08 /* FlickrSearchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlickrSearchTests-Info.plist"; sourceTree = "<group>"; };
 		D3D47CFA18BE75B100883C08 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D3D47CFC18BE75B100883C08 /* FlickrSearchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlickrSearchTests.m; sourceTree = "<group>"; };
+		D3D47D0718BE75F000883C08 /* bg_cork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_cork.png; sourceTree = "<group>"; };
+		D3D47D0818BE75F000883C08 /* bg_cork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_cork@2x.png"; sourceTree = "<group>"; };
+		D3D47D0918BE75F000883C08 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		D3D47D0A18BE75F000883C08 /* button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button@2x.png"; sourceTree = "<group>"; };
+		D3D47D0B18BE75F000883C08 /* decoration_snail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = decoration_snail.png; sourceTree = "<group>"; };
+		D3D47D0C18BE75F000883C08 /* decoration_snail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "decoration_snail@2x.png"; sourceTree = "<group>"; };
+		D3D47D0D18BE75F000883C08 /* divider_bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = divider_bar.png; sourceTree = "<group>"; };
+		D3D47D0E18BE75F000883C08 /* divider_bar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "divider_bar@2x.png"; sourceTree = "<group>"; };
+		D3D47D0F18BE75F000883C08 /* header_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = header_bg.png; sourceTree = "<group>"; };
+		D3D47D1018BE75F000883C08 /* header_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "header_bg@2x.png"; sourceTree = "<group>"; };
+		D3D47D1118BE75F000883C08 /* navbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navbar.png; sourceTree = "<group>"; };
+		D3D47D1218BE75F000883C08 /* navbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navbar@2x.png"; sourceTree = "<group>"; };
+		D3D47D1318BE75F000883C08 /* polaroid1_border.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = polaroid1_border.png; sourceTree = "<group>"; };
+		D3D47D1418BE75F000883C08 /* polaroid1_border@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "polaroid1_border@2x.png"; sourceTree = "<group>"; };
+		D3D47D1518BE75F000883C08 /* pushpin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pushpin.png; sourceTree = "<group>"; };
+		D3D47D1618BE75F000883C08 /* pushpin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pushpin@2x.png"; sourceTree = "<group>"; };
+		D3D47D1718BE75F000883C08 /* search_field.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search_field.png; sourceTree = "<group>"; };
+		D3D47D1818BE75F000883C08 /* search_field@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search_field@2x.png"; sourceTree = "<group>"; };
+		D3D47D1918BE75F000883C08 /* search_text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search_text.png; sourceTree = "<group>"; };
+		D3D47D1A18BE75F000883C08 /* search_text@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search_text@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3B4979B18BF103E004524D7 /* MessageUI.framework in Frameworks */,
 				D3D47CD418BE75B100883C08 /* CoreGraphics.framework in Frameworks */,
 				D3D47CD618BE75B100883C08 /* UIKit.framework in Frameworks */,
 				D3D47CD218BE75B100883C08 /* Foundation.framework in Frameworks */,
@@ -82,6 +140,9 @@
 		D3D47CC518BE75B100883C08 = {
 			isa = PBXGroup;
 			children = (
+				D3D47CE318BE75B100883C08 /* Main.storyboard */,
+				D3B4979718BF0B82004524D7 /* FlickrPhotoViewController.h */,
+				D3B4979818BF0B82004524D7 /* FlickrPhotoViewController.m */,
 				D3D47CD718BE75B100883C08 /* FlickrSearch */,
 				D3D47CF618BE75B100883C08 /* FlickrSearchTests */,
 				D3D47CD018BE75B100883C08 /* Frameworks */,
@@ -101,6 +162,7 @@
 		D3D47CD018BE75B100883C08 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D3B4979A18BF103E004524D7 /* MessageUI.framework */,
 				D3D47CD118BE75B100883C08 /* Foundation.framework */,
 				D3D47CD318BE75B100883C08 /* CoreGraphics.framework */,
 				D3D47CD518BE75B100883C08 /* UIKit.framework */,
@@ -112,12 +174,20 @@
 		D3D47CD718BE75B100883C08 /* FlickrSearch */ = {
 			isa = PBXGroup;
 			children = (
+				D3B4979118BEECF5004524D7 /* FlickrPhotoCell.h */,
+				D3B4979218BEECF5004524D7 /* FlickrPhotoCell.m */,
+				D3B4978B18BEE4AE004524D7 /* FlickrPhoto.h */,
+				D3B4978D18BEE4AE004524D7 /* FlickrPhoto.m */,
+				D3B4978E18BEE4AE004524D7 /* Flickr.h */,
+				D3B4978C18BEE4AE004524D7 /* Flickr.m */,
 				D3D47CE018BE75B100883C08 /* AppDelegate.h */,
 				D3D47CE118BE75B100883C08 /* AppDelegate.m */,
-				D3D47CE318BE75B100883C08 /* Main.storyboard */,
+				D3B4979418BF0817004524D7 /* FlickrPhotoHeaderView.h */,
+				D3B4979518BF0817004524D7 /* FlickrPhotoHeaderView.m */,
 				D3D47CE618BE75B100883C08 /* ViewController.h */,
 				D3D47CE718BE75B100883C08 /* ViewController.m */,
 				D3D47CE918BE75B100883C08 /* Images.xcassets */,
+				D3D47D0618BE75F000883C08 /* Assets */,
 				D3D47CD818BE75B100883C08 /* Supporting Files */,
 			);
 			path = FlickrSearch;
@@ -150,6 +220,33 @@
 				D3D47CF918BE75B100883C08 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D3D47D0618BE75F000883C08 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				D3D47D0718BE75F000883C08 /* bg_cork.png */,
+				D3D47D0818BE75F000883C08 /* bg_cork@2x.png */,
+				D3D47D0918BE75F000883C08 /* button.png */,
+				D3D47D0A18BE75F000883C08 /* button@2x.png */,
+				D3D47D0B18BE75F000883C08 /* decoration_snail.png */,
+				D3D47D0C18BE75F000883C08 /* decoration_snail@2x.png */,
+				D3D47D0D18BE75F000883C08 /* divider_bar.png */,
+				D3D47D0E18BE75F000883C08 /* divider_bar@2x.png */,
+				D3D47D0F18BE75F000883C08 /* header_bg.png */,
+				D3D47D1018BE75F000883C08 /* header_bg@2x.png */,
+				D3D47D1118BE75F000883C08 /* navbar.png */,
+				D3D47D1218BE75F000883C08 /* navbar@2x.png */,
+				D3D47D1318BE75F000883C08 /* polaroid1_border.png */,
+				D3D47D1418BE75F000883C08 /* polaroid1_border@2x.png */,
+				D3D47D1518BE75F000883C08 /* pushpin.png */,
+				D3D47D1618BE75F000883C08 /* pushpin@2x.png */,
+				D3D47D1718BE75F000883C08 /* search_field.png */,
+				D3D47D1818BE75F000883C08 /* search_field@2x.png */,
+				D3D47D1918BE75F000883C08 /* search_text.png */,
+				D3D47D1A18BE75F000883C08 /* search_text@2x.png */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,8 +326,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3D47CEA18BE75B100883C08 /* Images.xcassets in Resources */,
+				D3D47D1D18BE75F000883C08 /* button.png in Resources */,
+				D3D47D2018BE75F000883C08 /* decoration_snail@2x.png in Resources */,
+				D3D47D1B18BE75F000883C08 /* bg_cork.png in Resources */,
+				D3D47D1C18BE75F000883C08 /* bg_cork@2x.png in Resources */,
+				D3D47D2C18BE75F000883C08 /* search_field@2x.png in Resources */,
+				D3D47D2518BE75F000883C08 /* navbar.png in Resources */,
 				D3D47CDC18BE75B100883C08 /* InfoPlist.strings in Resources */,
+				D3D47D2218BE75F000883C08 /* divider_bar@2x.png in Resources */,
+				D3D47D1F18BE75F000883C08 /* decoration_snail.png in Resources */,
+				D3D47D2118BE75F000883C08 /* divider_bar.png in Resources */,
+				D3D47D2818BE75F000883C08 /* polaroid1_border@2x.png in Resources */,
+				D3D47D2D18BE75F000883C08 /* search_text.png in Resources */,
+				D3D47D2418BE75F000883C08 /* header_bg@2x.png in Resources */,
+				D3D47D2B18BE75F000883C08 /* search_field.png in Resources */,
+				D3D47D2318BE75F000883C08 /* header_bg.png in Resources */,
+				D3D47D2918BE75F000883C08 /* pushpin.png in Resources */,
+				D3D47D2A18BE75F000883C08 /* pushpin@2x.png in Resources */,
+				D3D47D1E18BE75F000883C08 /* button@2x.png in Resources */,
 				D3D47CE518BE75B100883C08 /* Main.storyboard in Resources */,
+				D3D47D2618BE75F000883C08 /* navbar@2x.png in Resources */,
+				D3D47D2E18BE75F000883C08 /* search_text@2x.png in Resources */,
+				D3D47D2718BE75F000883C08 /* polaroid1_border.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,8 +366,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3B4979618BF0817004524D7 /* FlickrPhotoHeaderView.m in Sources */,
 				D3D47CE818BE75B100883C08 /* ViewController.m in Sources */,
+				D3B4979918BF0B82004524D7 /* FlickrPhotoViewController.m in Sources */,
+				D3B4979318BEECF5004524D7 /* FlickrPhotoCell.m in Sources */,
 				D3D47CE218BE75B100883C08 /* AppDelegate.m in Sources */,
+				D3B4978F18BEE4AE004524D7 /* Flickr.m in Sources */,
+				D3B4979018BEE4AE004524D7 /* FlickrPhoto.m in Sources */,
 				D3D47CDE18BE75B100883C08 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +410,7 @@
 				D3D47CE418BE75B100883C08 /* Base */,
 			);
 			name = Main.storyboard;
+			path = FlickrSearch;
 			sourceTree = "<group>";
 		};
 		D3D47CF918BE75B100883C08 /* InfoPlist.strings */ = {
@@ -462,6 +585,7 @@
 				D3D47D0218BE75B100883C08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D3D47D0318BE75B100883C08 /* Build configuration list for PBXNativeTarget "FlickrSearchTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +594,7 @@
 				D3D47D0518BE75B100883C08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
